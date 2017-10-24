@@ -2,7 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
-## Steps for getting an Angular 4 app running from scratch (THE LONG WAY)
+## Pre-req
+https://coursetro.com/posts/code/55/How-to-Install-an-Angular-4-App
+
+## Steps for getting an Angular 4 app running from scratch (The LONG way)
 
 ###### 1. Create a new Angular 4 project using Angular CLI:
  `ng new angular4seed`
@@ -33,12 +36,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   })`
 ###### 8. Browse to `localhost:4200/task` or `localhost:4200/task`    
 
-## Steps for getting an Angular 4 app running (THE SHORT WAY :P)
+## Steps for getting an Angular 4 app running (The SHORT way :P)
 
-  `git clone https://github.com/mayankrd/angular4seed.git
-   cd angular4seed
-   npm install
-   ng serve`
+   `git clone https://github.com/mayankrd/angular4seed.git`
+   `cd angular4seed`
+   `npm install`
+   `ng serve`
 
 ## Development server
 
