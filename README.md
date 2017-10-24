@@ -5,26 +5,33 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Getting Started
 
 ###### 1. Create a new Angular 4 project using Angular CLI:
-#### `ng new angular4seed`
+ `ng new angular4seed`
 ###### 2. Open project folder:
-#### `cd angular4seed`
+ `cd angular4seed`
 ###### 3. Run the app:
-#### `ng serve`
+ `ng serve`
 ###### 4. Open app folder:
-#### `cd angular4seed/src/app`
+ `cd angular4seed/src/app`
 ###### 5. Adding a new component named 'task':
-#### `ng g c task`
+ `ng g c task`
 ###### 6. Navigating to the 'task' component. 
 ######    Add a constant array of routes in 'app.module':
-#### `const appRoutes: Routes = [
+`const appRoutes: Routes = [
   { path: '', component: TaskComponent },
   { path: 'task', component: TaskComponent }
 ];`
 ######    Add an entry to the imports array:
-#### `RouterModule.forRoot(
+`RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } 
       )`
+###### 7. Add Router Outlet. Replace `templateUrl` to `template` with value `<router-outlet></router-outlet>`
+`@Component({
+  selector: 'app-root',
+  template: `<router-outlet></router-outlet>`,
+  styleUrls: ['./app.component.css']
+})`
+###### 8. Browse to `localhost:4200/task` or `localhost:4200/task`    
 
 ## Development server
 
