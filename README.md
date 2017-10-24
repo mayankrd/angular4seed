@@ -4,15 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Getting Started
 
-### 1. Create a new Angular 4 project using Angular CLI
+###### 1. Create a new Angular 4 project using Angular CLI
 #### ng new angular4seed
-### 2. Open project folder
+###### 2. Open project folder
 #### cd angular4seed
-### 3. Running the app
+###### 3. Running the app
 #### ng serve
-### 4. Open app folder
+###### 4. Open app folder
 #### cd angular4seed/src/app
-### 5. Adding a new component named 'task'
+###### 5. Adding a new component named 'task'
 #### ng g c task
 
 
