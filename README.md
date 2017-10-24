@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
-# Getting Started
+# Steps for getting an Angular 4 app running from scratch (THE LONG WAY)
 
 ###### 1. Create a new Angular 4 project using Angular CLI:
  `ng new angular4seed`
@@ -15,23 +15,30 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ###### 5. Adding a new component named 'task':
  `ng g c task`
 ###### 6. Navigating to the 'task' component. 
-######    Add a constant array of routes in 'app.module':
-`const appRoutes: Routes = [
-  { path: '', component: TaskComponent },
-  { path: 'task', component: TaskComponent }
-];`
-######    Add an entry to the imports array:
-`RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } 
-      )`
+  ######    Add a constant array of routes in 'app.module':
+  `const appRoutes: Routes = [
+    { path: '', component: TaskComponent },
+    { path: 'task', component: TaskComponent }
+  ];`
+  ######    Add an entry to the imports array:
+  `RouterModule.forRoot(
+        appRoutes,
+        { enableTracing: true } 
+        )`
 ###### 7. Add Router Outlet. Replace `templateUrl` to `template` with value `<router-outlet></router-outlet>`
-`@Component({
-  selector: 'app-root',
-  template: `<router-outlet></router-outlet>`,
-  styleUrls: ['./app.component.css']
-})`
+  `@Component({
+    selector: 'app-root',
+    template: `<router-outlet></router-outlet>`,
+    styleUrls: ['./app.component.css']
+  })`
 ###### 8. Browse to `localhost:4200/task` or `localhost:4200/task`    
+
+# Steps for getting an Angular 4 app running (THE SHORT WAY :P)
+
+  `git clone https://github.com/mayankrd/angular4seed.git
+   cd angular4seed
+   npm install
+   ng serve`
 
 ## Development server
 
