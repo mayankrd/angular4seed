@@ -4,18 +4,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Getting Started
 
-###### 1. Create a new Angular 4 project using Angular CLI
-#### ng new angular4seed
-###### 2. Open project folder
-#### cd angular4seed
-###### 3. Running the app
-#### ng serve
-###### 4. Open app folder
-#### cd angular4seed/src/app
-###### 5. Adding a new component named 'task'
-#### ng g c task
-
-
+###### 1. Create a new Angular 4 project using Angular CLI:
+#### `ng new angular4seed`
+###### 2. Open project folder:
+#### `cd angular4seed`
+###### 3. Run the app:
+#### `ng serve`
+###### 4. Open app folder:
+#### `cd angular4seed/src/app`
+###### 5. Adding a new component named 'task':
+#### `ng g c task`
+###### 6. Navigating to the 'task' component. 
+######    Add a constant array of routes in 'app.module':
+#### `const appRoutes: Routes = [
+  { path: '', component: TaskComponent },
+  { path: 'task', component: TaskComponent }
+];`
+######    Add an entry to the imports array:
+#### `RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } 
+      )`
 
 ## Development server
 
