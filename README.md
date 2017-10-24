@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
+# Getting Started
+
+### 1. Create a new Angular 4 project using Angular CLI
+#### ng new angular4seed
+### 2. Open project folder
+#### cd angular4seed
+### 3. Running the app
+#### ng serve
+### 4. Open app folder
+#### cd angular4seed/src/app
+### 5. Adding a new component named 'task'
+#### ng g c task
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
